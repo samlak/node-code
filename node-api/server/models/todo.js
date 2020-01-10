@@ -1,4 +1,5 @@
-var mongoose = require('./db/mongoose');
+var mongoose = require('mongoose');
+
 var Todo = mongoose.model('Todo', {
     text: {
         type: String,
@@ -29,4 +30,4 @@ var Todo = mongoose.model('Todo', {
 //     console.log("Unable to save todo", e);
 // });
 
-module.export = {Todo};
+module.exports = {Todo};
