@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/samlak/node-code/issues"
   },
-  "homepage": "https://github.com/samlak/node-code#readme"
+  "homepage": "https://github.com/samlak/node-code#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.7"
+  }
 }
